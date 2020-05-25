@@ -1,0 +1,26 @@
+
+a = 'air'
+b = 'fire'
+c = 'water'
+d = 'earth'
+four = [a,b,c,d]
+
+
+#---------------------------------------------
+#wiriting by myself  intuition
+#自己比較直觀的寫法                                                
+#rd.shuffle(four)  洗牌用
+#print(four)
+
+import random as rd
+CB = [rd.choice(four),rd.choice(four),rd.choice(four),rd.choice(four)]
+print(CB)
+
+#-----------------------------------------------------------------------
+search from internet and change it
+#比較強大的寫法
+import numpy as np
+import pandas as pd
+
+unitbox = np.random.choice(four, size=5, p=[0.25,0.25,0.25,0.25])
+print(unitbox)
