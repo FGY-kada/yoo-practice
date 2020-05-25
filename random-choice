@@ -22,5 +22,5 @@ search from internet and change it
 import numpy as np
 import pandas as pd
 
-unitbox = np.random.choice(four, size=5, p=[0.25,0.25,0.25,0.25])
+unitbox = np.random.choice(four, size=8, p=[0.25,0.25,0.25,0.25])
 print(unitbox)
